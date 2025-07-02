@@ -1,0 +1,86 @@
+body {
+    scroll-behavior: smooth;
+  }
+  
+  section h2 {
+    margin-bottom: 1rem;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  footer {
+    font-size: 0.9rem;
+  }
+  .realisations-section {
+    background-color: #fdf9f6;
+  }
+  
+  .project-card {
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+    max-width: 100%; /* évite le débordement */
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project-card img {
+    width: 100%;
+  height: auto;
+  max-height: 180px; /* Limite la hauteur sans couper */
+  object-fit: contain; /* Affiche l'image complète sans crop */
+  background-color: #f0f0f0; /* Couleur autour si l'image n'est pas carrée */
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  }
+  
+  
+  .project-card h5 {
+    font-weight: 600;
+    margin-top: 15px;
+  }
+  
+  .project-card p {
+    color: #666;
+    margin-bottom: 0;
+  }
+
+  .section-content {
+    background-color: #fdf9f6;
+  }
+  
+  .section-header {
+    padding: 100px 20px;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .section-header h2 {
+    margin: 0;
+    font-size: 2.8rem;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Spécifie les images de fond pour chaque section */
+  .apropos-header {
+    background-image: url("clavier.jpg");
+  }
+  
+  .competences-header {
+    background-image: url("reseau.jpg");
+  }
+  

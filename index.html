@@ -1,10 +1,131 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio de Nicolas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
+
+  <!-- Header -->
+  <header class="d-flex justify-content-between align-items-center p-3 border-bottom bg-light sticky-top">
+    <h1 class="h4 mb-0">Nicolas Cren</h1>
+    <nav>
+      <a href="#apropos" class="me-3">À propos</a>
+      <a href="#competences" class="me-3">Compétences</a>
+      <a href="#realisations" class="me-3">Réalisations</a>
+      <a href="#contact" class="btn btn-outline-dark">Contact</a>
+    </nav>
+  </header>
+
+<!-- À propos -->
+<section id="apropos" class="section-content">
+    <div class="section-header apropos-header">
+      <h2>À propos</h2>
+    </div>
+    <div class="container py-5">
+      <p class="text-center">
+        Développeur web passionné par le front-end (React, Vue.js, HTML/CSS, JS) et le back-end (Node.js, Express, MongoDB).
+        <br>J'aime créer des sites web complets, performants et esthétiques.
+        <br>
+        <br>Je suis à votre disposition pour échanger sur votre projet.
+        <br>
+        <br>N'hésitez pas à me contacter !
+      </p>
+    </div>
+  </section>
+  
+  <!-- Compétences -->
+  <section id="competences" class="section-content">
+    <div class="section-header competences-header">
+      <h2>Compétences</h2>
+    </div>
+    <div class="container py-5">
+      <div class="row text-center">
+        <div class="col-md-4">
+          <h5>Front-End</h5>
+          <p>JavaScript, React, Vue.js, HTML, CSS, Bootstrap</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Back-End</h5>
+          <p>Node.js, Express, MongoDB, API REST</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Outils</h5>
+          <p>Git, GitHub, Visual Studio Code</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Réalisations -->
+  <section id="realisations" class="py-5 realisations-section">
+    <div class="container">
+      <h2 class="text-center mb-5">Mes Réalisations</h2>
+      <div class="row g-4 justify-content-center">
+        <!-- Répète cette carte 5 fois avec ton contenu -->
+        <div class="col-md-4">
+          <div class="project-card">
+            <a href="https://github.com/NicolascrenFr/Booki---Projet-2" target="_blank">
+                <img src="projet1-Booki.png" alt="Booki" style="width:100%; height:180px; object-fit:cover; border-radius:10px;" />
+            </a>
+            <h5 class="mt-3">Booki</h5>
+            <p>HTML - CSS</p>
+          </div>
+        </div>
+        <!-- Ajoute les 4 autres ici -->
+        <div class="col-md-4">
+            <div class="project-card">
+              <a href="https://github.com/NicolascrenFr/Sophie-Bluel---Projet3" target="_blank">
+                <img src="projet2-SophieBluel.png" alt="Sophie Bluel" style="width:100%; height:180px; object-fit:cover; border-radius:10px;" />
+              </a>
+              <h5 class="mt-3">Sophie Bluel</h5>
+              <p>JavaSript - Swagger</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="project-card">
+              <a href="https://github.com/NicolascrenFr/Nina-Carducc---Projet4" target="_blank">
+                <img src="projet3-NinaCarducci.png" alt="Nina Carducci" style="width:100%; height:180px; object-fit:cover; border-radius:10px;" />
+              </a>
+              <h5 class="mt-3">Nina Carducci</h5>
+              <p>SEO - Accessibilité - Lighthouse</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="project-card">
+              <a href="https://github.com/NicolascrenFr/Kasa---Projet-5" target="_blank">
+                <img src="projet4-Kasa.png" alt="Kasa" style="width:100%; height:180px; object-fit:cover; border-radius:10px;" />
+              </a>
+              <h5 class="mt-3">Kasa</h5>
+              <p>Vite - React Router</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="project-card">
+              <a href="https://github.com/NicolascrenFr/Mon-vieux-grimoire---Projet-6" target="_blank">
+                <img src="projet6-MonVieuxGrimoire.png" alt="Mon Vieux Grimoire" style="width:100%; height:180px; object-fit:cover; border-radius:10px;" />
+              </a>
+              <h5 class="mt-3">Mon Vieux Grimoire</h5>
+              <p>Express - MongoDb</p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="container py-5">
+    <h2 class="text-center mb-4">Me contacter</h2>
+    <p class="text-center">Vous pouvez me contacter via <a href="mailto:tonemail@example.com">tonemail@example.com</a> ou visiter mon <a href="https://github.com/NicolascrenFR" target="_blank">GitHub</a>.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 border-top">
+    © 2025 Nicolas Cren - Portfolio
+  </footer>
+
 </body>
 </html>
